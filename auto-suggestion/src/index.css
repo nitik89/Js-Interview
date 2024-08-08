@@ -1,0 +1,46 @@
+.recipie-container {
+  width: 350px;
+  height: 50vh;
+  position: relative;
+}
+input {
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+.highlight {
+  color: #007bff;
+}
+.recipie-list {
+  position: absolute;
+  font-size: 15px;
+  width: 100%;
+  z-index: 10;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  color: black;
+  border-top: none;
+  max-height: 150px;
+  overflow-y: auto;
+  background-color: #fff;
+  margin: 0;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+  padding: 8px;
+  cursor: pointer;
+}
+li:hover,
+li[aria-selected="true"] {
+  background-color: #f0f0f0;
+}
